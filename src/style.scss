@@ -5,16 +5,16 @@
  * Replace them with your own styles or remove the file completely.
  */
 
- .wp-block-create-block-gutenpride {
+ .wp-block-create-block-bg-dropdown-block {
 	padding: 2px;
 }
 
-.wp-block-create-block-gutenpride .dropdown-body-wrapper {
+.wp-block-create-block-bg-dropdown-block .dropdown-body-wrapper {
 	transition: height .5s ease-in-out;
 	overflow: hidden;
 	height: 0;
 }
 
-.wp-block-create-block-gutenpride .dropdown-header:hover {
+.wp-block-create-block-bg-dropdown-block .dropdown-header:hover {
 	opacity: 0.5;
 }
