@@ -24,3 +24,5 @@ function create_block_bg_dropdown_block_block_init() {
 	register_block_type_from_metadata( __DIR__ );
 }
 add_action( 'init', 'create_block_bg_dropdown_block_block_init' );
+
+wp_enqueue_script( 'frontend-dropdown-script', plugins_url('./script.js', __FILE__));

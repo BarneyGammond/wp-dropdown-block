@@ -3,13 +3,26 @@
 	"name": "create-block/bg-dropdown-block",
 	"title": "BG Dropdown Block",
 	"category": "widgets",
-	"icon": "smiley",
+	"icon": "arrow-down",
 	"description": "Dropdown Block",
 	"supports": {
 		"html": false
 	},
+	"attributes": {
+        "headerContent": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2"
+        },
+        "dropContent": {
+            "type": "string",
+            "source": "html",
+            "selector": "h2"
+        }
+    },
 	"textdomain": "bg-dropdown-block",
 	"editorScript": "file:./build/index.js",
+	"script": "file:./build/script.js",
 	"editorStyle": "file:./build/index.css",
 	"style": "file:./build/style-index.css"
 }
