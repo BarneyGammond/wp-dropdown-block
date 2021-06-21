@@ -1,0 +1,15 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/bg-dropdown-block",
+	"title": "BG Dropdown Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Dropdown Block",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "bg-dropdown-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
