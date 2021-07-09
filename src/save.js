@@ -30,14 +30,12 @@ export default function save( { attributes } ) {
 			<h2>
 				<RichText.Content
 					className="dropdown-header"
-					tagName="span"
 					value={ attributes.headerContent }
 				/>
 			</h2>
 			<p class="dropdown-body-wrapper">
 				<RichText.Content
 					className="dropdown-body"
-					tagName="span"
 					value={ attributes.dropContent }
 				/>
 			</p>

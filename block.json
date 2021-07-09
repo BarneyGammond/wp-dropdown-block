@@ -17,7 +17,7 @@
         "dropContent": {
             "type": "string",
             "source": "html",
-            "selector": "h2"
+            "selector": "p"
         }
     },
 	"textdomain": "bg-dropdown-block",
