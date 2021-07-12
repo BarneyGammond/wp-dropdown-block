@@ -27,18 +27,20 @@ export default function save( { attributes } ) {
 
 	return (
 		<div { ...blockProps }>
-			<h2>
+			<div>
 				<RichText.Content
 					className="dropdown-header"
+					tagName="h2"
 					value={ attributes.headerContent }
 				/>
-			</h2>
-			<p class="dropdown-body-wrapper">
+			</div>
+			<div class="dropdown-body-wrapper">
 				<RichText.Content
 					className="dropdown-body"
+					tagName="p"
 					value={ attributes.dropContent }
 				/>
-			</p>
+			</div>
 		</div>
 	);
 }

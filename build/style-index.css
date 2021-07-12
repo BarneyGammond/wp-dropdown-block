@@ -1,1 +1,21 @@
-.wp-block-create-block-bg-dropdown-block h2{cursor:pointer}.wp-block-create-block-bg-dropdown-block .dropdown-body-wrapper{transition:height .5s ease-in-out;overflow:hidden;height:0}.wp-block-create-block-bg-dropdown-block .dropdown-header:hover{opacity:.5}
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-bg-dropdown-block h2 {
+  cursor: pointer;
+}
+
+.wp-block-create-block-bg-dropdown-block .dropdown-body-wrapper {
+  transition: height 0.5s ease-in-out;
+  overflow: hidden;
+  height: 0;
+}
+
+.wp-block-create-block-bg-dropdown-block .dropdown-header:hover {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
